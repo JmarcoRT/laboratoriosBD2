@@ -1,0 +1,74 @@
+= Proyecto SISCOP: Documento de Negocio
+:author: Carrascal, Ccahuana, Gil, Guevara, Medrano, Nuñez, Rosales
+:revnumber: 1.0
+:revdate: 27 de abril, 2026
+:toc: left
+:toc-title: Contenido del Documento
+:sectnums:
+:icons: font
+
+== Historial de Revisiones
+
+[cols="1,1,3,2", options="header"]
+
+|===
+| Fecha | Versión | Descripción | Autor
+| 27/04/2026 | 1.0 | Versión preliminar del documento de negocio | Jeanmarco Rosales
+|===
+
+<<<
+// El '<<<' arriba es el comando oficial de AsciiDoc para "Salto de Página"
+
+== Introducción
+
+=== Propósito
+El presente documento describe los procesos principales relacionados con la atención nutricional de pacientes en la clínica San Fernando.
+
+=== Alcance
+El documento abarca los procesos de admisión, búsqueda de historia clínica, evaluación nutricional inicial, seguimiento y elaboración de informes.
+
+=== Definiciones
+* **Historia clínica:** Registro físico médico/nutricional.
+* **IMC:** Índice de Masa Corporal.
+
+<<<
+
+== Proceso 1: Admisión de Pacientes (PROC-001)
+
+[NOTE]
+Responsable: Personal administrativo. Objetivo: Validar información básica.
+
+=== Ficha del Proceso
+[cols="1,3,2,1", options="header"]
+
+|===
+| ID | Actividad | Datos de Entrada | Tipo
+| 1 | Recibir al paciente | Llegada del paciente | Manual
+| 2 | Solicitar documento | Paciente presente | Manual
+| 3 | Verificar existencia | DNI / CE | Manual
+| 4 | Registrar datos | Nombre, Sexo, Edad | Manual
+|===
+
+=== Diagrama del Proceso
+image::./img/diagrama-admision.png[Diagrama Admisión, width=600]
+
+<<<
+
+== Proceso 2: Búsqueda de Historia Clínica (PROC-002)
+
+[IMPORTANT]
+Este proceso se ejecuta cada vez que un paciente será atendido.
+
+.Actividades de Búsqueda
+. Recibir solicitud de historia clínica.
+. Identificar datos del paciente.
+. Buscar historia clínica en archivo físico.
+. Verificar disponibilidad.
+. Entregar al profesional de salud.
+
+<<<
+
+== Proceso 3: Atención Inicial (PROC-003)
+Responsable: Nutricionista.
+
+... Continúa con el resto de procesos ...
